@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ikkeh-list/static/css/main.9915599b.css",
+    "main.js": "/ikkeh-list/static/js/main.e17d9912.js",
+    "static/js/787.3cb535ab.chunk.js": "/ikkeh-list/static/js/787.3cb535ab.chunk.js",
+    "static/media/bg.png": "/ikkeh-list/static/media/bg.b2f254f98c588fce9909.png",
+    "index.html": "/ikkeh-list/index.html",
+    "main.9915599b.css.map": "/ikkeh-list/static/css/main.9915599b.css.map",
+    "main.e17d9912.js.map": "/ikkeh-list/static/js/main.e17d9912.js.map",
+    "787.3cb535ab.chunk.js.map": "/ikkeh-list/static/js/787.3cb535ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9915599b.css",
+    "static/js/main.e17d9912.js"
+  ]
+}
