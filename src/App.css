@@ -69,11 +69,11 @@ p {
 }
 
 .Task-input.edit {
-  border: 2px solid #FEFBE7;
+  border: 2px solid #8d2349;
 }
 
 .Task-button.edit {
-  background: #6D8B74;
+  background: #8d2349;
   padding: 16px 22px;
 }
 
