@@ -1,38 +1,128 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-image: url('../img/bg.png');
+  background-size: cover;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Task-app {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  width: 520px;
+  min-height: 450px;
+  background: #edededc9;;
+  text-align: center;
+  margin: 100px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+
+h1 {
+  margin-top: 33px;
+  color: #000;
+  font-size: 24px;
+}
+p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #000;
+  font-size: 20px;
+}
+.complete {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+.Task-form {
+  margin-bottom: 32px;
+}
+
+.Task-input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #8d2349;
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color: #000;
+}
+
+.Task-input::placeholder {
+  color: #313131;
+}
+
+.Task-button {
+  padding: 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: #8d2349;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.Task-input.edit {
+  border: 2px solid #FEFBE7;
+}
+
+.Task-button.edit {
+  background: #6D8B74;
+  padding: 16px 22px;
+}
+
+.Task-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.Task-row {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 4px auto;
+  color: #fff;
+  background: #8d2349;
+
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
 }
 
-.App-link {
-  color: #61dafb;
+.Task-row:nth-child(4n + 1) {
+  background: #8d2349;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Task-row:nth-child(4n + 2) {
+  background: #8d2349;
+}
+
+.Task-row:nth-child(4n + 3) {
+  background: #8d2349;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+.delete-icon {
+  margin-right: 5px;
+  color: #fff;
+}
+
+.edit-icon {
+  color: #fff;
+}
+
+.List-name {
+  cursor: pointer;
 }
