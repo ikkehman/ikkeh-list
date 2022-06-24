@@ -42,7 +42,7 @@ function TaskForm(props) {
       ) : (
         <>
           <input
-            placeholder='Masukan Nama'
+            placeholder='Masukan Misi'
             value={input}
             onChange={handleChange}
             name='text'

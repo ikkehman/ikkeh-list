@@ -42,7 +42,7 @@ function TaskList() {
 
   return (
     <>
-      <h1>[ To Do List ]</h1>
+      <h1>[ Task List ]</h1>
       <p></p>
       <TaskForm onSubmit={addTask} />
       <Task
